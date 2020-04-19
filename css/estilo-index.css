@@ -1,14 +1,33 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+/*Cuerpp de la pagina*/
+body{
+    background-color:#61A0E8 ;
+}
+/*Cabecera*/
+header {
+    background-color:#3B544B ;
+}
+header h1 {
+    text-align: center;
+    color: navy;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
 #social{
     padding-left: 1em;
 
-    &_item {
-        border-bottom: 1px solid rbga(#fff, .5);;
-    }
 
 }
+
+/*Navegador*/
 #menu {
     
     background: #ffa84c;
+    min-height: 3em;
 }
 ul {
     list-style: none;
@@ -25,11 +44,35 @@ ul {
     float: left;
        
  }
-ul li a {
+ul li a:link a:visited {
     border-left: 1px solid #FFF;
     border-right: 1px solid #7C7C7C;
-    color: #333;gma
+    color: #333;
     display: block;
     padding: .3em;
     text-decoration: none;
+}
+
+/*Principal Section*/
+section {
+    width: 75%;
+    background-color: orange;
+    float: left;
+}
+section h1{
+    text-align: center;
+    padding: 0.5em;
+    color: palegreen;
+    font-size: 1.4em;
+}
+
+/*Articulos*/
+article{
+    margin: 0.5em 3em;
+    padding: 0.5em 3em;
+    background-color: paleturquoise;
+    border: 3px double aqua;
+}
+article p {
+    text-align: justify;
 }
