@@ -2,21 +2,18 @@
     width: 700px;
 }
 
-#cabecera {
-
-}
-
-#menu {
-    background-color: brown;
+#menu  {
+    
     float: left;
     width: 15%;
 }
 
 #contenido {
-    background-color: brown;
+   
     float: left;
     width: 85%;
 }
-footer{
+
+#pie{
     clear: both;
 }
