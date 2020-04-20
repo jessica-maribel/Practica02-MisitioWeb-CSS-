@@ -5,7 +5,7 @@
 }
 /*Cuerpp de la pagina*/
 body{
-    background-color:#61A0E8 ;
+    /*background-color:#61A0E8 ;*/
 }
 /*Cabecera*/
 header {
@@ -23,13 +23,13 @@ header h1 {
 
 }
 
-/*Navegador*/
+/*Navegador Principal*/
 #menu {
     
-    background: #ffa84c;
+    /*background: #ffa84c;*/
     min-height: 3em;
 }
-ul {
+#menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -39,12 +39,12 @@ ul {
     border: 1px solid black;
     
 }
- ul li{
+#menu ul li{
     width: 150%;
     float: left;
        
  }
-ul li a:link a:visited {
+ #menu ul li a:link a:visited {
     border-left: 1px solid #FFF;
     border-right: 1px solid #7C7C7C;
     color: #333;
@@ -52,11 +52,33 @@ ul li a:link a:visited {
     padding: .3em;
     text-decoration: none;
 }
+/*Navegador dentro del index.html*/
+ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    float: left;
+    
+}
+ ul li{
+    width: 150%;
+    
+       
+ }
+ ul li a:link a:visited {
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #7C7C7C;
+    color: #333;
+    padding: .3em;
+    text-decoration: none;
+    float: left;
+}
 
 /*Principal Section*/
 section {
-    width: 75%;
-    background-color: orange;
+    width: 70%;
+    /*background-color: orange;*/
     float: left;
 }
 section h1{
@@ -65,14 +87,31 @@ section h1{
     color: palegreen;
     font-size: 1.4em;
 }
-
+/*Ilustracion*/
+img.derecha{
+    float: right;
+    margin-left: 30px;
+    width: 30%;
+    
+}
 /*Articulos*/
 article{
+    
     margin: 0.5em 3em;
     padding: 0.5em 3em;
-    background-color: paleturquoise;
+    
     border: 3px double aqua;
 }
 article p {
     text-align: justify;
+}
+/*Aside anuncios*/
+aside{
+    width: 25%;
+    clear: both;
+}
+/*Pie de pagina*/
+footer  {
+    clear: both;
+    
 }
