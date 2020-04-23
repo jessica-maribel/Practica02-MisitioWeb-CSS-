@@ -1,0 +1,25 @@
+
+
+#con-tres-columnas #secondary-menu  {
+ float: left;
+ width: 15%;
+}
+
+#secondary-menu ul li a {
+    float: left;
+}
+#con-tres-columnas {
+    float: left;
+    width: 85%;
+}
+
+#con-tres-columnas #principal {
+    float: left;
+    width: 60%;
+}
+
+#con-tres-columnas #secundario {
+    float: left;
+    width: 25%;
+}
+

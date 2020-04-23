@@ -4,17 +4,10 @@
     Cuenca - Ecuador
    Filename: estilo-index.css
 
-
 */
 
-
-/*
-======================================================================
-                Contenido de la pagina
-======================================================================
-*/
 .contenido {
-    width: 90%;
+    width: 97%;
     margin-left: auto;
     margin-right: auto;
     border-bottom-width: 0px;
@@ -61,7 +54,6 @@
 }
 
 .rom .contenido{
-   
     display: block;
 }
 
