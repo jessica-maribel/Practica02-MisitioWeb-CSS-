@@ -495,9 +495,9 @@ body {
         line-height: 0px;
         padding-top: 7px;
     }
-    .imagi {
+   /* .imagi {
         float: left;
-    }
+    }*/
     .contenido .social_novedades .social_novedades_icon:hover {
         cursor: pointer;
         opacity: 0.8;
