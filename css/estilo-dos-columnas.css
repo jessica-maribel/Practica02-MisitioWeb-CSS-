@@ -8,14 +8,9 @@
     width: 15%;
 }
 
-.contenido {
+.contenido-columnas {
    
     float: left;
     width: 85%;
 }
 
-#pie{
-    clear: both;
-    text-align: center;
-    font-size: 19px;
-}
