@@ -1,4 +1,8 @@
-
+h3 h4 {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: #291502;
+    font-size: 30px;
+}
 
 #con-tres-columnas #secondary-menu  {
  float: left;
@@ -11,17 +15,19 @@
 #con-tres-columnas {
     float: left;
     width: 85%;
+    text-align: justify;
 }
 
 #con-tres-columnas #principal {
     float: left;
     width: 60%;
     text-align: justify;
+    padding-right: 5%;
 }
 
 #con-tres-columnas #secundario {
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: justify;
 }
 
