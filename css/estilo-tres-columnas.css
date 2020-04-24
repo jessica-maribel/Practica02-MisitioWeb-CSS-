@@ -16,11 +16,13 @@
 #con-tres-columnas #principal {
     float: left;
     width: 60%;
+    text-align: justify;
 }
 
 #con-tres-columnas #secundario {
     float: left;
     width: 25%;
+    text-align: justify;
 }
 
 .footer {
