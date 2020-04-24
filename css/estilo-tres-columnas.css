@@ -57,7 +57,7 @@ h4 {
     font-size: 30px;
 }
 
-p, a, span, em { text-decoration: underline; }
+
 p a { color: blue; }
 #con-tres-columnas #secondary-menu  {
  float: left;
